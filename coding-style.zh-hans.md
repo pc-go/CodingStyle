@@ -182,7 +182,7 @@ if(a || (b && c)) do_some();
 
 - 不要使用逻辑取反运算来判断某个返回 0 为成功的函数成功返回，例如不要这样：
 ```c
-if(!strcmp(argv[1], "--version") {
+if(!strcmp(argv[1], "--version")) {
 	puts(VERSION);
 	return 0;
 }
