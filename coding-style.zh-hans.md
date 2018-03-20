@@ -1,5 +1,14 @@
 # PC GO 编码风格
 
+## 通用
+
+### 字符编码
+- 不要使用不兼容 ASCII 的字符编码方案。
+
+- 建议使用 UTF-8 作为源码文件的字符编码，以保证文件的通用性。
+
+- 不要为 UTF-8 编码的源码文件添加字节序标记（BOM）。
+
 ## C
 
 ### 缩进
@@ -197,5 +206,5 @@ if(strcmp(argv[1], "--version") == 0) {
 
 
 
-版权所有 2007-2014 PC GO Ld.  
-以《GNU 自由文档许可协议》发布
+版权所有 2007-2014 PC GO Ld. 以及 版权所有 2015-2018 Rivoreo
+以《Creative Commons Attribution-ShareAlike 4.0 International License》发布
